@@ -71,3 +71,30 @@ ul.event-group {
   text-align: center;
   padding-top: 25px;
 }
+.save-delete i.fa-save{
+  font-size: 30px;
+}
+.save-delete i.fa-save:hover {
+  font-size: 30px;
+  color: #000000;
+  transition: all .3s ease-in-out;
+}
+.save-delete i.fa-trash{
+  font-size: 18px;
+  padding-left: 8px;
+}
+.save-delete i.fa-trash:hover {
+  font-size: 18px;
+  color: #ff0000b9;
+  transition: all .5s ease-in-out;
+}
+.event-group{
+  padding: 2px 0 0 2px;
+}
+.events{
+  margin: 0;
+  height: 75px;
+  color: #000000;
+  font-size: 14px;
+  line-height: 22px;
+}
